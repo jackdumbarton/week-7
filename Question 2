@@ -1,0 +1,13 @@
+p0=student()
+p1=student("chen","liang",212444,"ISD")
+p2=student("Cody", "Dumberton", 212445, "Graphics")
+p3=student("Luke", "Carr", 212356, "Architectrual development")
+student = [p0, p1, p2, p3]
+
+for p in student :
+    print()
+    p.getInformation()
+          
+
+
+
