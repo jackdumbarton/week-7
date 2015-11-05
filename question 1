@@ -1,0 +1,9 @@
+class student():
+    def __init__ (self, name = "Jack", surname = "Dumbarton", studentnumber = 21284532, course = "Creative Computing"):
+        self.name=name
+        self.surname=surname
+        self.studentnumber=studentnumber
+        self.course=course
+
+    def getInformation(self):
+        print ( self.name, self.surname, self.studentnumber, self.course)
